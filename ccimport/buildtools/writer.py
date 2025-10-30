@@ -7,7 +7,12 @@ from collections import OrderedDict
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Type, Union
 
-from ninja.ninja_syntax import Writer
+
+try:
+    from ninja.ninja_syntax import Writer
+except ImportError:
+    from ninja_syntax import Writer  # from system ninja
+    
 from ccimport import compat
 from ccimport.constants import get_compiler_map, CXX, CUDACXX, HIPCXX
 from ccimport.buildmeta import BuildMeta
