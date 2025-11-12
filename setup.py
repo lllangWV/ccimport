@@ -23,7 +23,7 @@ VERSION = None
 # What packages are required for this module to be executed?
 REQUIRED = [
     "pybind11",
-    "ninja",
+    "ninja_syntax",
     "requests",
     "importlib-metadata>=2.0; python_version < \"3.8\"",
     "dataclasses; python_version == \"3.6\"",
