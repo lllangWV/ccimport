@@ -2,10 +2,11 @@
 
 [![Build Status](https://github.com/FindDefinition/ccimport/workflows/build/badge.svg)](https://github.com/FindDefinition/ccimport/actions?query=workflow%3Abuild)
 
-a tiny package for fast python c++ binding build.
+A tiny package for fast python c++ binding build. Orginally developed by @FindDefinition. This fork was produced to be compatible with conda-forge.
 
 ccimport 0.2.x support python 3.5.
 ccimport >= 0.3 support python 3.6-3.10.
+ccimport >=0.4.5 support 3.10-3.13
 
 ## Usage
 
